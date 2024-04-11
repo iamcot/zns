@@ -1,0 +1,23 @@
+{
+    "name": "iamcot/zns",
+    "description": "Helper to send Zalo Message",
+    "type": "library",
+    "require": {
+        "zaloplatform/zalo-php-sdk": "^4.0"
+    },
+    "require-dev": {
+        "zaloplatform/zalo-php-sdk": "^4.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iamcot\\Zns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "CoT",
+            "email": "iamcot@gmail.com"
+        }
+    ]
+}
